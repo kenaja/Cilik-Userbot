@@ -1,7 +1,7 @@
 {
   "name": "Cilik-Userbot",
-  "description": "KYY-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
+  "description": "CILIK-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/d1a4c7856d16735213d5b.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -95,11 +95,11 @@
     },
      "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
+      "value": "https://telegra.ph/file/d1a4c7856d16735213d5b.jpg",
       "required": false
     },
-    "KYY_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .kyyalive (Isi Terserah)",
+    "CILIK_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .cilikalive (Isi Terserah)",
       "value": "I'am Using Cilik-Userbot ✨",
       "required": false 
     },
