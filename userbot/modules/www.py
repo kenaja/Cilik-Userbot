@@ -21,14 +21,25 @@ absen = [
     "**Hadir kak** 😉",
     "**Hadir bang** 😁",
     "**Hadir kak maap telat** 🥺",
+    "**Hadir Bang Grey**",
+    "**Hadir Sayang** 🥵"
+    "**Hadir Bang Grey** 😎",
+    "**Hadir Beb** 😘 ",
+    "**Hadir Bang Grey** 😁",
+    "**Hadir Grey Pacar Aku**",
+    "**Halo Grey**",
 ]
 
 pacar = [
-    "**Saya Hadir Untuk Membasmi Para Jamet Telegram** 😎 ",
-    "**Iya Bang kenapa?**",
-    "**Uuyy Bang**",
-    "**Hadir uyy** 😁",
-    "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sangean** 😎",
+    "**Kamu mau jadi pacar aku ga?** 💘",
+    "**Memek mending sama aku** 😎",
+    "**Hai ganteng** 🐷",
+    "**Mau ga bang jadi pacar aku?** 😁",
+    "**Mending pc aku bang** 🥺",
+    "**Ngewe Sama Aku yuk**🥵🥵💦",
+    "**Grey Mau Aku Crotin??**🥵",
+    "**Grey Mau Aku Sepongin??**",
+    "**Grey Aku Sayang Kamu ,Mwahhh😘**",
 ]
 
 
@@ -59,12 +70,12 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.absen$")
+@register(incoming=True, from_users=5066592080, pattern=r"^.absen$")
 async def _(kyy):
     await kyy.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.kyy$")
+@register(incoming=True, from_users=5066592080, pattern=r"^.grey$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
@@ -84,7 +95,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Kyy-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'Cilik-Userbot` \n" % (duration)
     )
 
 
@@ -122,7 +133,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ҡʏʏ-υѕєявσт✨**\n"
+        f"**✨Cilik-Userbot✨**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -146,7 +157,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ ҡʏʏ-υѕєявσт ✨**\n\n"
+        f"**✨ Cilik-Userbot ✨**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -202,7 +213,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨ҡʏʏ-υѕєявσт✨"
+        "✧ **BOT:** ✨Cilik-Userbot✨"
     )
 
 
