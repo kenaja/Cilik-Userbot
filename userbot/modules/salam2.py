@@ -42,7 +42,7 @@ async def perkenalan(event):
 
 
 CMD_HELP.update({
-    "gabut": "**Modules** - `Gabut`\
+    "salam2": "**Modules** - `salam2`\
     \n\n Cmd : `.l`\
     \nUsage : Untuk Menjawab Salam\
     \n\n Cmd : `.perkenalan`\
