@@ -1,48 +1,48 @@
 <h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">Cilik-Userbot<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
 <p align="center">
-    <a href="https://github.com/muhammadrizky16/Kyy-Userbot/commits/Kyy-Userbot"><img src="https://img.shields.io/github/last-commit/muhammadrizky16/Kyy-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
-    <a href="https://github.com/muhammadrizky16/Kyy-Userbot"> <img src="https://img.shields.io/github/repo-size/muhammadrizky16/Kyy-Userbot?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/muhammadrizky16/Kyy-Userbot/commits/Kyy-Userbot"><img src="https://img.shields.io/github/last-commit/grey423/Cilik-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
+    <a href="https://github.com/grey423/Cilik-Userbot"> <img src="https://img.shields.io/github/repo-size/grey423/Cilik-Userbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
     </p>
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/0e9f5e3db55e173308360.jpg">
+  <img src="https://telegra.ph/file/b43124bd7c14fdfd2cf78.jpg">
 </p>
 
+  
+#### JOIN SUPPORT!!
 
-## Disclaimer
-
-```
-Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
-Bot ini dimaksudkan untuk bersenang-senang sekaligus membantu Anda
-mengelola grup secara efisien dan mengotomatiskan beberapa hal yang membosankan.
-Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
-```
+<a href="https://t.me/CilikProject"><img src="https://img.shields.io/badge/Channel%20Cilik-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/CilikSupport"><img src="https://img.shields.io/badge/Join-Cilik%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 
-## String Session :
-[![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-white)](https://replit.com/@rizkyhmdanii16/StringSession)
+## AMBIL STRING LU DISINI:
+<p align="left"><a 
+href="https://replit.com/@grey423/stringen#main.py"><img 
+src="https://img.shields.io/badge/Generate%20String%20Sesion-000000?style=flat&logo=replit&logoColor=white" width="250" height="38.60" />
+</a></p>
 
+  
+  # Heroku
+  
+  <a href="https://heroku.com/deploy?template=https://github.com/grey423/Grey-Userbot.git"><img src="https://img.shields.io/badge/DEPLOY%20GREY%20USERBOT%20DI%20HEROKU-blue?style=flat&logo=Heroku" width="325" height="50.100" />
+  
 
-<h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku :</h3>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/grey423/Cilik-Userbot/"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="150" height="30.00" /></a></p>
-
-
-### Support & Updates 
-<a href="https://t.me/NastySupportt"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/NastyProject"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<br>
+</p>
 
 ### Follow Me :
 <p align="left">
-<a href="https://github.com/muhammadrizky16"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a> <a href="https://instagram.com/rizkyhamdanii16_"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
+<a href="https://github.com/grey423"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a> <a href="https://instagram.com/farid.srydiii"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
 </p>
 
 ##
 
-🔰 **THANKS YOU TO**
+ **THANKS YOU TO**
 *   [Kyy](https://github.com/muhammadrizky16/Kyy-Userbot)   Kyy - Userbot
-*   [Sendi](https://github.com/SendiAp/Rose-Userbot)   Rose-Userbot
-*   [Skyzu](https://github.com/Skyzu/skyzu-userbot)   skyzu-userbot
+*   [Tonic](https://github.com/Tonic990/Tonic-Userbot)   Tonic-Userbot
+*   [Bagaskara](https://github.com/ybgskr12/BAGASKARA-USERBOT)   Bagaskara-Userbot
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
