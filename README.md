@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/276d22aac9f400898cd27.jpg">
+  <img src="https://telegra.ph/file/0e9f5e3db55e173308360.jpg">
 </p>
 
 
@@ -28,7 +28,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku :</h3>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/muhammadrizky16/DeployKyy/"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="150" height="30.00" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/grey423/DeployCilik/"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="150" height="30.00" /></a></p>
 
 
 ### Support & Updates 
