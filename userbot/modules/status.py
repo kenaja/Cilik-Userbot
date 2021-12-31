@@ -17,7 +17,7 @@ from userbot import TEMP_DOWNLOAD_DIRECTORY
 OFFLINE_TAG = f"{ALIVE_NAME} #OFFLINE"
 ONLINE_TAG = f"{ALIVE_NAME} #ONLINE"
 PROFILE_IMAGE = os.environ.get(
-    "PROFILE_IMAGE", "https://telegra.ph/file/44784d03e4e4ecbdf9e04.jpg"
+    "PROFILE_IMAGE", "https://telegra.ph/file/d1a4c7856d16735213d5b.jpg"
 )
 
 
@@ -35,7 +35,7 @@ async def _(event):
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):  # pylint:disable=E0602
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)  # pylint:disable=E0602
     urllib.request.urlretrieve(
-        "https://telegra.ph/file/44784d03e4e4ecbdf9e04.jpg", "donottouch.jpg"
+        "https://telegra.ph/file/d1a4c7856d16735213d5b.jpg", "donottouch.jpg"
     )
     photo = "donottouch.jpg"
     if photo:
