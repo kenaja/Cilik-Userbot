@@ -67,14 +67,12 @@ if CONFIG_CHECK:
 # KALO NGEFORK ID DEVS NYA GA USAH DI HAPUS YA GOBLOK 😡
 DEVS = (
     5066592080,
-    1663258664,
+    1935384758,
     1416529201,
     1979717764,
     1977978893,
-    955903284,
     1937084611,
     1901321169,
-    5066592080,
     1820233416,
     
 )
@@ -232,11 +230,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/0e9f5e3db55e173308360.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/b43124bd7c14fdfd2cf78.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/0e9f5e3db55e173308360.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/b43124bd7c14fdfd2cf78.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
@@ -470,7 +468,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@Kyyuserrbot")
+                    results = await event.client.inline_query(tgbotusername, "@CilikUserbot")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -664,7 +662,7 @@ with bot:
                     f"°__Menampilkan Alive Punya Kamu__.\n\n"
                     f"× `.set var ALIVE_LOGO` [**LINK**]\n"
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
-                    f"× `.set var KYY_TEKS_KUSTOM` [**TEKS**]\n"
+                    f"× `.set var CILIK_TEKS_KUSTOM` [**TEKS**]\n"
                     f"°__Mengganti Teks Yang Ada Command CilikAlive__.\n\n"
                     f"© @reyyvbss")
                 await event.edit(
