@@ -23,6 +23,9 @@
 <p align="left"><a 
 href="https://replit.com/@grey423/stringen#main.py"><img 
 src="https://img.shields.io/badge/Generate%20String%20Sesion-000000?style=flat&logo=replit&logoColor=white" width="250" height="38.60" />
+
+<a href="https://t.me/CilikString_Bot"><img src="https://img.shields.io/badge/Ambil-String%20via Bot-blue.svg?style=for-the-badge&logo=Telegram"></a>                   
+
 </a></p>
 
   
