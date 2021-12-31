@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">Cilik-Userbot<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">𝗖𝗶𝗹𝗶𝗸 𝗨𝘀𝗲𝗿𝗯𝗼𝘁<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
 <p align="center">
     <a href="https://github.com/muhammadrizky16/Kyy-Userbot/commits/Kyy-Userbot"><img src="https://img.shields.io/github/last-commit/grey423/Cilik-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
@@ -28,7 +28,7 @@ src="https://img.shields.io/badge/Generate%20String%20Sesion-000000?style=flat&l
   
   # Heroku
   
-  <a href="https://heroku.com/deploy?template=https://github.com/grey423/Grey-Userbot.git"><img src="https://img.shields.io/badge/DEPLOY%20GREY%20USERBOT%20DI%20HEROKU-blue?style=flat&logo=Heroku" width="325" height="50.100" />
+  <a href="https://heroku.com/deploy?template=https://github.com/grey423/Cilik-Userbot.git"><img src="https://img.shields.io/badge/DEPLOY%20GREY%20USERBOT%20DI%20HEROKU-blue?style=flat&logo=Heroku" width="325" height="50.100" />
   
 
 <br>
