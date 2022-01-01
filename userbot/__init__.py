@@ -96,7 +96,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/0e9f5e3db55e173308360.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/d1a4c7856d16735213d5b.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -194,7 +194,7 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .cilikalive
-KYY_TEKS_KUSTOM = os.environ.get("KYY_TEKS_KUSTOM", "")
+CILIK_TEKS_KUSTOM = os.environ.get("CILIK_TEKS_KUSTOM", "")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
