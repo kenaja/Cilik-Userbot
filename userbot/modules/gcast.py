@@ -24,7 +24,7 @@ async def gcast(event):
     else:
         await event.edit("**Berikan Sebuah Pesan atau Reply**")
         return
-    kk = await event.edit("`Sedang Mengirim Pesan Secara Global... 📢`")
+    kk = await event.edit("`Gikes dulu ahhhhh... 📢`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
