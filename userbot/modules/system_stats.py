@@ -18,7 +18,7 @@ import sys
 import time
 from datetime import datetime
 import psutil
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, KYY_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, CILIK_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot
 from userbot.events import register
 
 
@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**✨Kyy-Userbot✨ Versi:** \n "
-            f"heads/Kyy-Userbot-0-x634i7u1"
+            "**⚜-**✨Cilik-Userbot✨ Versi:** \n "
+            f"heads/Cilik-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -223,13 +223,13 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:kyyalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:cilikalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **✨ҡʏʏ-υѕєявσт✨** \n\n"
-        f"\n__**{KYY_TEKS_KUSTOM}**__\n\n\n"
+        f" **✨Cilik-Userbot✨** \n\n"
+        f"\n__**{CILIK_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
         f"◙ `Username   :` @{user.username} \n"
@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/NastySupportt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/NastyProject) | [ᴏᴡɴᴇʀ](https://t.me/IDnyaKosong) | [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/CilikSupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/CilikProject) | [ᴏᴡɴᴇʀ](https://reyyvbss) | [ɢɪᴛʜᴜʙ](https://github.com/grey423/Cilik-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -259,13 +259,13 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:kyyon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:cilikon)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Kyy](t.me/IDnyaKosong) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Grey](t.me/reyyvbss) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -303,7 +303,7 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
-    await alive.edit("✨")
+    await alive.edit("🤡")
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Kyy](https://github.com/muhammadrizky16/Kyy-Userbot) \n"
-        f"┣  `Support  :` [Groups](https://t.me/NastySupportt) \n"
-        f"┣  `Owner    :` [Kyy](https://t.me/IDnyaKosong) \n"
+        f"┣  `GitHub   :` [Grey](https://github.com/grey423/Cilik-Userbot) \n"
+        f"┣  `Support  :` [Groups](https://t.me/CilikSupport) \n"
+        f"┣  `Owner    :` [Grey](https://t.me/reyyvbss) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
