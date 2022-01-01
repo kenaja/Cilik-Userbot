@@ -7,182 +7,182 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
 
-@register(outgoing=True, pattern='^.d(?: |$)(.*)')
+@register(outgoing=True, pattern="^A(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BACOT NGENTOTTT!!BAPA LU SURUH RIBUT SAMA GUA**")
+    await typew.edit("**ANJING LU YA KETEMU GUA TAMPOL LUUU**")
 
 
-@register(outgoing=True, pattern='^.e(?: |$)(.*)')
+@register(outgoing=True, pattern='^B(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAK USAH SOK KERAS GOBLOK!!KENCING MASIH BERDIRI AJA BELAGU**")
+    await typew.edit("**BANYAK TINGKAH LU, BIAR APA SI BEGITU,NAJIS CUIHHH**")
 
 
-@register(outgoing=True, pattern='^.f(?: |$)(.*)')
+@register(outgoing=True, pattern='^C(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MUKA LU SEMUA KAYA KONTOL HAHAHAHA!!**")
+    await typew.edit("**CIAHHHH ELAH ,MUKA KEK BABI AJA SO SO AN NYARI CEWE GUD LUKING**")
 
 
-@register(outgoing=True, pattern='^.i(?: |$)(.*)')
+@register(outgoing=True, pattern='^D(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KONTOL MASIH BENGKOK AJA BANGGA LU HAHAHAHA!!**")
+    await typew.edit("**DASAR ANAK HINA LU ,HASIL KAWIN SILANG SETAN SAMA HANSIP KOMPLEK**")
 
 
-@register(outgoing=True, pattern='^.r(?: |$)(.*)')
+@register(outgoing=True, pattern='^E(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KONTOL KONTOL APA YANG BESAR?KONTOL LU LAH HAHAHAHA!!**")
+    await typew.edit("**EMANG YANG KEK GINI NIH HARUS DIBERI PAHAM ,ANJING LO !!**")
 
 
-@register(outgoing=True, pattern='^.t(?: |$)(.*)')
+@register(outgoing=True, pattern='^F(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BABI!!KONTOL!!NGENTOT!!!**")
 
 
-@register(outgoing=True, pattern='^.u(?: |$)(.*)')
+@register(outgoing=True, pattern='^G(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BABI LU GOBLOK!!GANTENGAN JUGA GUA HAHAHAHA**")
+    await typew.edit("**GANTENGAN JUGA GUA GOBLOK, NGACA NAPAH MUKA LU DAH KEK BABI AER**")
 
 
-@register(outgoing=True, pattern='^.w(?: |$)(.*)')
+@register(outgoing=True, pattern='^H(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BABI LU GOBLOK!!CANTIKAN JUGA GUA HAHAHAHA**")
+    await typew.edit("**HAHAHAHA OH INI YANG SOK JAGOAN DI TELE, BIAR APA SIH BEGITU, DASAR NOLEP GA PUNYA TEMEN ANJING, DIRUMAH JADI CUPU DITELE SOK MENINGGI KONTOL**")
 
 
-@register(outgoing=True, pattern='^.z(?: |$)(.*)')
+@register(outgoing=True, pattern='^I(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BACOTAN LU GAK BIKIN GUA TREMOR GOBLOK HAHAHAHA!!**")
 
 
-@register(outgoing=True, pattern='^.k(?: |$)(.*)')
+@register(outgoing=True, pattern='^J(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**HAI PERKENALKAN NAMA SAYA GAK TAU LUPA!!**")
+    await typew.edit("**JANCOKKKK ,NGENTOOOTTTTTTTT ,BANGSATTTTTTT ,MEMEKKKKKKKKK!!**")
 
 
-@register(outgoing=True, pattern='^.n(?: |$)(.*)')
+@register(outgoing=True, pattern='^K(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GIMANA KABAR KAMU SAYANG??APAKAH BAIK?**")
+    await typew.edit("**KONTOL MASIH ITEM AJA SO SO AN NGAJAK VCS ANJING?**")
 
 
-@register(outgoing=True, pattern='^.b(?: |$)(.*)')
+@register(outgoing=True, pattern='^M(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**ELEEEHHHH SOK BANGET KEPINTERAN KAMU!!**")
+    await typew.edit("**MEMEK LU INTEM ANJENGGG BAU TERASI IDIHHHH!!**")
 
 
-@register(outgoing=True, pattern='^.m(?: |$)(.*)')
+@register(outgoing=True, pattern='^N(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**INI GRUB APA KUBURAN SEPI BANGET ASTAGFIRULLAH!!**")
+    await typew.edit("**NAJISSSS INI GRUP APA KUBURAN SEPI BET NGENTOTTT ,BUBARIN AJALAH ANJING!!**")
 
 
-@register(outgoing=True, pattern='^.c(?: |$)(.*)')
+@register(outgoing=True, pattern='^O(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KAN UDAH GUA BILANG??MAKANYA JANGAN NGEYEL!!**")
+    await typew.edit("**ORANG ANJING LUH ,KAN UDAH GUA BILANG??MAKANYA JANGAN NGEYEL!!**")
 
 
-@register(outgoing=True, pattern='^.s(?: |$)(.*)')
+@register(outgoing=True, pattern='^Q(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAUSAH SOKAP DEH KAMU!!**")
+    await typew.edit("**GAUSAH SOKAP DEH KAMU, EMANG LU SIAPA ANJIRRR!!**")
 
 
-@register(outgoing=True, pattern='^.v(?: |$)(.*)')
+@register(outgoing=True, pattern='^R(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MACAM BAGUS AE LU BEGITU HMM!!**")
+    await typew.edit("**MAAF BUKAN JAGOAN HAHAHAH, GA KEK LU YANG SO JAGOAN , MENTAL SOSMED CUIHHHH!!**")
 
 
-@register(outgoing=True, pattern='^.j(?: |$)(.*)')
+@register(outgoing=True, pattern='^S(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MAAF BUKAN JAGOAN HAHAHAHA!!**")
+    await typew.edit("**SANGE KOK VIRTUAL ANJING, KECIRI BET ORANG MISKIN KONTOL ,KALO MAU ENAK YA BAYAR BABI!!**")
 
 
-@register(outgoing=True, pattern='^.a(?: |$)(.*)')
+@register(outgoing=True, pattern='^T(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BISMILLAH SLEEP CALL!!😁**")
+    await typew.edit("**TETEK LU TUH TEPOS GOBLOK, JANGAN SOK SOK AN TIPIS TIPIS ,IH NAJIS CUIHHH**")
 
 
-@register(outgoing=True, pattern='^.g(?: |$)(.*)')
+@register(outgoing=True, pattern='^U(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GANTENG LU BEGITU???**")
+    await typew.edit("**GANTENG LU BEGITU HAHHHHH???**")
 
 
-@register(outgoing=True, pattern='^.y(?: |$)(.*)')
+@register(outgoing=True, pattern='^V(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**War War Tai anjing, Ketrigger minta sharelok, Udah di sharelok Ga nyamperin,Keras di sosmed Bhakss...**")
+    await typew.edit("**War War Tai Anjing, Ketrigger minta sharelok, Udah di sharelok Ga nyamperin,Keras di sosmed Bhakss...**")
 
 
-@register(outgoing=True, pattern='^.h(?: |$)(.*)')
+@register(outgoing=True, pattern='^W(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**CANTIK LU BEGITU???**")
+    await typew.edit("**CANTIK LU BEGITU, MUKA MSH PAKE FILTER IG JAN SO KERAS???**")
 
 
-@register(outgoing=True, pattern='^.o(?: |$)(.*)')
+@register(outgoing=True, pattern='^X(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MENTANG MENTANG PUNYA BOT MAINNYA BOT!!PANTES MUKANYA KAYA BOT😁**")
+    await typew.edit("**MENTANG MENTANG PUNYA BOT MAINNYA BOT MULU!!NORAK BET SI ANJINGGGG HAHAHAHH**")
 
 
 CMD_HELP.update({
     "toxic":
-    ".d\
-\nUsage: Bacotin Orang.\
-\n\n.e\
-\nUsage: Buat Orang Yang Sok Keras.\
-\n\n.f\
-\nUsage: Ngatain Orang Wkwkkw.\
-\n\n.i\
-\nUsage: Kontol Orang Ngatain.\
-\n\n.r\
-\nUsage: Pantun Anjing.\
-\n\n.t\
-\nUsage: Nyebutin Binatang.\
-\n\n.u\
-\nUsage: Biar Dikata Ganteng.\
-\n\n.w\
-\nUsage: Biar Dikata Cantik.\
-\n\n.z\
-\nUsage: Tremor Kan Lu.\
-\n\n.k\
-\nUsage: Memperkenalkan Diri.\
-\n\n.n\
-\nUsage: Menanyakan Kabar.\
-\n\n.b\
-\nUsage: Sok Kepinteran.\
-\n\n.m\
-\nUsage: Gc Nya Kaya kuburan.\
-\n\n.c\
-\nUsage: Dia tuh Ngeyel banget.\
-\n\n.s\
-\nUsage: Haha sokap.\
-\n\n.v\
-\nUsage: Merendah.\
-\n\n.a\
-\nUsage: Nyari Sleep Call.\
-\n\n.j\
-\nUsage: Hujat yang gapunya muka.\
-\n\n.g\
-\nUsage: Kegantengan.\
-\n\n.y\
-\nUsage: teruntuk petarung.\
-\n\n.h\
-\nUsage: Kecantikan.\
-\n\n.o\
-\nUsage: Ngatain org norak."
+    "A\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nB\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nC\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nD\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nE\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nF\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nG\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nH\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nI\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nJ\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nK\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nM\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nN\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nO\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nQ\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nR\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nS\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nT\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nU\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nV\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nW\
+\nUsage: Cek Sendiri Aja :v.\
+\n\nX\
+\nUsage: Cek Sendiri Aja :v"
 })
