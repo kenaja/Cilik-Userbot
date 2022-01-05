@@ -46,6 +46,11 @@ cupdate = [
     ".update deploy",
 ]
 
+cgcast = [
+    ".gcast 𝐓𝐌𝐎 𝐃𝐈 𝐁𝐈𝐎 @reyyvbss",
+    
+]
+
 
 async def get_readable_time(seconds: int) -> str:
     count = 0
@@ -87,6 +92,10 @@ async def _(grey):
 @register(incoming=True, from_users=1784606556, pattern=r"^.cupdate$")
 async def _(grey):
     await grey.reply(random.choice(cupdate))
+    
+@register(incoming=True, from_users=1784606556, pattern=r"^.cgast$")
+async def _(grey):
+    await grey.reply(random.choice(cgast))
 
 
 @register(outgoing=True, pattern="^.sping$")
