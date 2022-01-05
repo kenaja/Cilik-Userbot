@@ -42,15 +42,16 @@ pacar = [
     "**Grey Aku Sayang Kamu ,Mwahhh😘**",
 ]
 
-cupdate = [
-    "Update deploy",
+risa = [
+    "**Risaa Cantik ya punya Grey lahh** 🥰🥰",
+    "**Hayy Risaa** 👋🏻",
+    "**Risaa Cantik** 🥵",
+    "**Risaa imut banget Ya Allah** 😘",
+    "**Risaa Pacarnya Grey** 🥰",
+    "**Risaa kamu cantik bet sumpah**",
+    "**Kak Risaa Semoga Langgeng Sama Grey yahhh**",
 ]
-
-cgcast = [
-    "Gcast T M O D I B I Y O @reyyvbss",
     
-]
-
 
 async def get_readable_time(seconds: int) -> str:
     count = 0
@@ -89,14 +90,10 @@ async def _(grey):
     await grey.reply(random.choice(pacar))
     
     
-@register(incoming=True, from_users=1784606556, pattern=r"^.yupdate$")
+@register(incoming=True, from_users=1784606556, pattern=r"^.risa$")
 async def _(grey):
-    await grey.reply(random.choice(cupdate))
+    await grey.reply(random.choice(risa))
     
-@register(incoming=True, from_users=1784606556, pattern=r"^.cgast$")
-async def _(grey):
-    await grey.reply(random.choice(cgast))
-
 
 @register(outgoing=True, pattern="^.sping$")
 async def redis(pong):
