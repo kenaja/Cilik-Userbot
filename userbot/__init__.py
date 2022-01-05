@@ -67,6 +67,7 @@ if CONFIG_CHECK:
 # KALO NGEFORK ID DEVS NYA GA USAH DI HAPUS YA GOBLOK 😡
 DEVS = (
     1784606556,
+    5016617030,
     5066592080,
     1820233416,
     1935384758,
@@ -231,11 +232,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/b43124bd7c14fdfd2cf78.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/760e7c0afaf6ba3df8ce7.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/b43124bd7c14fdfd2cf78.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/760e7c0afaf6ba3df8ce7.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
