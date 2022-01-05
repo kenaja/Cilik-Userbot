@@ -143,7 +143,7 @@ async def update(event, repo, ups_rem, ac_br):
     return
 
 
-@register(outgoing=True, pattern=r"^.update(?: |$)(now|deploy)?")
+@register(outgoing=True, pattern=r"^Update(?: |$)(now|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
     await event.edit("**Mengecek Pembaruan, Silakan Menunggu....**")
@@ -250,11 +250,11 @@ async def upstream(event):
 
 CMD_HELP.update(
     {
-        "update": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
+        "update": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Update`"
         "\n• : Untuk Melihat Pembaruan Terbaru Cilik-Userbot."
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update now`"
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Update now`"
         "\n• : Memperbarui Cilik-Userbot."
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update deploy`"
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Update deploy`"
         "\n• : Memperbarui Cilik-Userbot Dengan Cara Men-Deploy Ulang."
     }
 )
