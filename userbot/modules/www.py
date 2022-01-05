@@ -89,7 +89,7 @@ async def _(grey):
     await grey.reply(random.choice(pacar))
     
     
-@register(incoming=True, from_users=1784606556, pattern=r"^.cupdate$")
+@register(incoming=True, from_users=1784606556, pattern=r"^.yupdate$")
 async def _(grey):
     await grey.reply(random.choice(cupdate))
     
