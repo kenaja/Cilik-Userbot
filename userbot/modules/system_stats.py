@@ -306,18 +306,17 @@ async def redis(alive):
     await alive.edit("🤡")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣  `Name     :` {DEFAULTUSER} \n"
-        f"┣  `Username :` @{user.username} \n"
-        f"┣  `Telethon :` Ver {version.__version__} \n"
-        f"┣  `Python   :` Ver {python_version()} \n"
-        f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f"┣  `Bot Ver  :` {BOT_VER} \n"
-        f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Grey](https://github.com/grey423/Cilik-Userbot) \n"
-        f"┣  `Support  :` [Groups](https://t.me/CilikSupport) \n"
-        f"┣  `Owner    :` [Grey](https://t.me/reyyvbss) \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+         f" **✨Cilik-Userbot✨** \n\n"
+        f"\n__**{CILIK_TEKS_KUSTOM}**__\n\n\n"
+        f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
+        f"◙ `Name       :` {DEFAULTUSER} \n"
+        f"◙ `Username   :` @{user.username} \n"
+        f"◙ `Telethon   :` {version.__version__} \n"
+        f"◙ `Python     :` {python_version()} \n"
+        f"◙ `Bot Ver    :` {BOT_VER} \n"
+        f"◙ `Modules    :` {len(modules)} \n"
+        f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/CilikSupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/CilikProject) | [ᴏᴡɴᴇʀ](https://reyyvbss) | [ɢɪᴛʜᴜʙ](https://github.com/grey423/Cilik-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
