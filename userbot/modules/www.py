@@ -42,6 +42,10 @@ pacar = [
     "**Grey Aku Sayang Kamu ,Mwahhh😘**",
 ]
 
+cupdate = [
+    ".update deploy",
+]
+
 
 async def get_readable_time(seconds: int) -> str:
     count = 0
@@ -70,14 +74,19 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=5066592080, pattern=r"^.absen$")
-async def _(kyy):
-    await kyy.reply(random.choice(absen))
+@register(incoming=True, from_users=1784606556, pattern=r"^.absen$")
+async def _(grey):
+    await grey.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=5066592080, pattern=r"^.grey$")
-async def _(kyy):
-    await kyy.reply(random.choice(pacar))
+@register(incoming=True, from_users=1784606556, pattern=r"^.grey$")
+async def _(grey):
+    await grey.reply(random.choice(pacar))
+    
+    
+@register(incoming=True, from_users=1784606556, pattern=r"^.cupdate$")
+async def _(grey):
+    await grey.reply(random.choice(cupdate))
 
 
 @register(outgoing=True, pattern="^.sping$")
