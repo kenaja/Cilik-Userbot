@@ -43,11 +43,11 @@ pacar = [
 ]
 
 cupdate = [
-    ".update deploy",
+    "Update deploy",
 ]
 
 cgcast = [
-    ".gcast 𝐓𝐌𝐎 𝐃𝐈 𝐁𝐈𝐎 @reyyvbss",
+    "Gcast T M O D I B I Y O @reyyvbss",
     
 ]
 
