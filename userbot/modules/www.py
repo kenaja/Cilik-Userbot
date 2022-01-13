@@ -43,13 +43,13 @@ pacar = [
 ]
 
 risa = [
-    "**Risaa Cantik ya punya Grey lahh** 🥰🥰",
-    "**Hayy Risaa** 👋🏻",
-    "**Risaa Cantik** 🥵",
-    "**Risaa imut banget Ya Allah** 😘",
-    "**Risaa Pacarnya Grey** 🥰",
-    "**Risaa kamu cantik bet sumpah**",
-    "**Kak Risaa Semoga Langgeng Sama Grey yahhh**",
+    "**Wa'alaikumsalam ganteng** 🥰🥰",
+    "**Wa'alaikumsalam WR WB** 👋🏻",
+    "**Iyah Waalaikusalam** 🥵",
+    "**Wa'alaikumsalam bang**",
+    "**Wa'alaikumsalam** 🥰",
+    "**Wa'alaikumsalan Warohmatullohi Wabarokatu**",
+    "**Wa'alaikumsalam Ustad**",
 ]
     
 
@@ -90,7 +90,7 @@ async def _(grey):
     await grey.reply(random.choice(pacar))
     
     
-@register(incoming=True, from_users=5016617030, pattern=r"^.risa$")
+@register(incoming=True, from_users=1784606556, pattern=r"^P$")
 async def _(grey):
     await grey.reply(random.choice(risa))
     
