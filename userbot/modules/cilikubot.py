@@ -137,7 +137,7 @@ async def typewriter(typew):
     await typew.edit("**KASIAN MANA MASIH MUDA**")
 
 
-@register(outgoing=True, pattern="^.tittle(?: |$)(.*)")
+@register(outgoing=True, pattern="^.title(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**OI ANAK TITLE**")
@@ -192,6 +192,6 @@ CMD_HELP.update({
     \n↳ : Sangean\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.virtual`\
     \n↳ : Ngatain bocah virtual.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.tittle`\
-    \n↳ : Ngatain bocah gila tittle."
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.title`\
+    \n↳ : Ngatain bocah gila titttle."
 })
