@@ -1,5 +1,5 @@
 # Based Code by @adekmaulana
-# Improve by @aidilaryanto
+# Improve by @aidilaryantou
 #
 #
 import os
