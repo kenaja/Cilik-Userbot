@@ -1,7 +1,7 @@
-<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">𝗖𝗶𝗹𝗶𝗸 𝗨𝘀𝗲𝗿𝗯𝗼𝘁<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">Cɪʟɪᴋ Uꜱᴇʀʙᴏᴛ<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
 <p align="center">
-    <a href="https://github.com/muhammadrizky16/Kyy-Userbot/commits/Kyy-Userbot"><img src="https://img.shields.io/github/last-commit/grey423/Cilik-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
+    <a href="https://github.com/grey423/Cilik-Userbot/commits/Cilik-Userbot"><img src="https://img.shields.io/github/last-commit/grey423/Cilik-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
     <a href="https://github.com/grey423/Cilik-Userbot"> <img src="https://img.shields.io/github/repo-size/grey423/Cilik-Userbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/b43124bd7c14fdfd2cf78.jpg">
+  <img src="https://telegra.ph/file/ac134f6d295ad0c03af9b.jpg">
 </p>
 
   
@@ -31,7 +31,7 @@ src="https://img.shields.io/badge/Generate%20String%20Sesion-000000?style=flat&l
   
   # Heroku
   
-  <a href="https://heroku.com/deploy?template=https://github.com/grey423/Cilik-Userbot.git"><img src="https://img.shields.io/badge/DEPLOY%20GREY%20USERBOT%20DI%20HEROKU-blue?style=flat&logo=Heroku" width="325" height="50.100" />
+  <a href="https://telegram.dog/XTZ_HerokuBot?start=Z3JleTQyMy9DaWxpay1Vc2VyYm90IENpbGlrLVVzZXJib3Q"><img src="https://img.shields.io/badge/DEPLOY%20USERBOT%20DI%20HEROKU-blue?style=flat&logo=Heroku" width="325" height="50.100" />
   
 
 <br>
