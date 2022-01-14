@@ -1,7 +1,7 @@
 {
   "name": "Cilik-Userbot",
-  "description": "CILIK-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/d1a4c7856d16735213d5b.jpg",
+  "description": "CILIK-USERBOT KHUSUS YANG DIGUNAKAN UNTUK MEMBANTAI PARA PETINGGI DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/ac134f6d295ad0c03af9b.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/grey423/Cilik-Userbot/Cilik-Userbot",
-  "telegram": "https://t.me/reyyvbss",
-  "success_url": "https://t.me/CilikProject",
+  "telegram": "https://t.me/Greyyvbss",
+  "success_url": "https://t.me/CilikSupport",
   "stack": "container",
   "env": {
     "API_KEY": {
