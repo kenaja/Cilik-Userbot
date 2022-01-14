@@ -1,5 +1,5 @@
 # imported from github.com/ravana69/PornHub to userbot by @heyworld
-# please don't nuke my credits 😓
+# please don't nuke my credis 😓
 import requests
 import bs4
 import os
