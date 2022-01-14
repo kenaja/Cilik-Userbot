@@ -310,7 +310,7 @@ async def redis(alive):
         f"✫ `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"✫ `Bot Ver  :` {BOT_VER} \n"
         f"✫ `Modules  :` {len(modules)} Modules \n"
-        f"**[Support](https://t.me/CilikSupport** | **[Channel](https://t.me/CilikProject)** | **[Owner](t.me/greyyvbss)**"
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/CilikSupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/CilikProject) | [ᴏᴡɴᴇʀ](https://t.me/greyyvbss) | [ɢɪᴛʜᴜʙ](https://github.com/grey423/Cilik-Userbot)"
     )
     if ALIVE_LOGO:
         try:
