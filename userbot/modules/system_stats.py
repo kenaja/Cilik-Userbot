@@ -301,7 +301,7 @@ async def redis(alive):
     await alive.edit("✫✫✫")
     await asyncio.sleep(2)
     output = (
-        f"**[Cɪʟɪᴋ Uꜱᴇʀʙᴏᴛ](https://github.com/grey423/Cilik-Userbot)        
+        f"**[Cɪʟɪᴋ Uꜱᴇʀʙᴏᴛ](https://github.com/grey423/Cilik-Userbot)**\n\n"        
         f"✫ **Master :** `{DEFAULTUSER}` \n"
         f"✫ **Modules :** `{len(modules)} Modules` \n"
         f"✫ **Bot Version :** `{BOT_VER}` \n"
