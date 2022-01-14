@@ -99,7 +99,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/d1a4c7856d16735213d5b.jpg"
+    "PMPERMIT_PIC") 
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -233,11 +233,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/760e7c0afaf6ba3df8ce7.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/ac134f6d295ad0c03af9b.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/760e7c0afaf6ba3df8ce7.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/ac134f6d295ad0c03af9b.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
@@ -386,7 +386,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Cilik-Userbot Berhasil Diaktifkan✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @CilikSupport\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @CilikProject \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Cilik-Userbot Berhasil Diaktifkan**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @CilikSupport\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @CilikProject \n━━━━━━━━━━━━━━━━━━━")
     return
 
 
@@ -517,7 +517,7 @@ with bot:
             if event.message.from_id != uid:
                 await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"{START_WELCOME}\n\n**Powered By** : @reyyvbss\n\n",
+                    f"{START_WELCOME}\n\n**Powered By** : @greyyvbss\n\n",
                     buttons=[
                         [
                             custom.Button.inline(
@@ -551,7 +551,7 @@ with bot:
             event.builder
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@reyyvbss"):
+                    "@greyyvbss"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME} "
                 await event.edit(text,
@@ -589,7 +589,7 @@ with bot:
                     f"❁ __Saya Adalah Cilik Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 1816 Modules__.\n\n"
-                    f"© @reyyvbss")
+                    f"© @greyyvbss")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -667,7 +667,7 @@ with bot:
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
                     f"× `.set var CILIK_TEKS_KUSTOM` [**TEKS**]\n"
                     f"°__Mengganti Teks Yang Ada Command CilikAlive__.\n\n"
-                    f"© @reyyvbss")
+                    f"© @greyyvbss")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -697,7 +697,7 @@ with bot:
                     f"°__Mengaktifkan Pmpermit Kalian Atau Disebut Pesan Otomatis__.\n\n"
                     f"× `.set pm_msg` [**REPLYCHAT**]\n"
                     f"°__Mengganti Teks Pmpermit Selera Kamu__.\n\n"
-                    f"© @reyyvbss")
+                    f"© @greyyvbss")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -727,7 +727,7 @@ with bot:
                     f"°__Mengubah Emoji Inline Yang Ada Dicomand__ `.helpme`\n\n"
                     f"× `.set var INLINE_PIC` [**LINK**]\n"
                     f"°__Mengubah Foto Yang Ada Dicomand__ `.helpme`\n\n"
-                    f"© @reyyvbss")
+                    f"© @greyyvbss")
                 await event.edit(
                     text,
                     file=kyulogo,
@@ -755,7 +755,7 @@ with bot:
                     f"Modules Name **pmbot**\n\n"
                     f"× `.set var START_WELCOME` [**TEKS**] \n"
                     f"°__Kamu Juga Bisa Mengubah Start Welcome Untuk Bot Kamu Yang Ini, Dengan Cara Diatas Dan Kata Kata Bebas__.\n\n"
-                    f"© @reyyvbss")
+                    f"© @greyyvbss")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -785,7 +785,7 @@ with bot:
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
-                    f"© @reyyvbss")
+                    f"© @greyyvbss")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -850,7 +850,7 @@ with bot:
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
-                    f"© @reyyvbss")
+                    f"© @greyyvbss")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -923,13 +923,13 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ✨Cilik-Userbot✨",
+                    "Bantuan Dari ✫Cilik-Userbot✫",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ✨Cilik-Userbot✨",
+                    " ✫Cilik-Userbot✫",
                     text="""°Cilik-Userbot°""",
                     buttons=[
                         [
