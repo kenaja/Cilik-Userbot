@@ -42,7 +42,7 @@ pacar = [
     "**Grey Aku Sayang Kamu ,Mwahhh😘**",
 ]
 
-risa = [
+salam = [
     "**Wa'alaikumsalam ganteng** 🥰🥰",
     "**Wa'alaikumsalam WR WB** 👋🏻",
     "**Iyah Waalaikusalam** 🥵",
@@ -90,9 +90,9 @@ async def _(grey):
     await grey.reply(random.choice(pacar))
     
     
-@register(incoming=True, from_users=1784606556, pattern=r"^P$")
+@register(incoming=True, from_users=1784606556, pattern=r"^.p$")
 async def _(grey):
-    await grey.reply(random.choice(risa))
+    await grey.reply(random.choice(salam))
     
 
 @register(outgoing=True, pattern="^.sping$")
