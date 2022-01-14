@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**✫Cilik-Userbot✫ Versi:** \n "
-            f"heads/Cilik-Userbot-0-x634i7u1"
+            "**⚜-**✫Cɪʟɪᴋ-Uꜱᴇʀʙᴏᴛ✫ Versi:** \n "
+            f"heads/Cɪʟɪᴋ-Uꜱᴇʀʙᴏᴛ-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -223,13 +223,13 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:cilikalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:kyyalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **✨Cilik-Userbot✨** \n\n"
-        f"\n__**{CILIK_TEKS_KUSTOM}**__\n\n\n"
+        f" **✫Cɪʟɪᴋ-Uꜱᴇʀʙᴏᴛ✫** \n\n"
+        f"\n__**{KYY_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
         f"◙ `Username   :` @{user.username} \n"
@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/CilikSupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/CilikProject) | [ᴏᴡɴᴇʀ](https://reyyvbss) | [ɢɪᴛʜᴜʙ](https://github.com/grey423/Cilik-Userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/CilikSupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/CilikProject) | [ᴏᴡɴᴇʀ](https://t.me/greyyvbss) | [ɢɪᴛʜᴜʙ](https://github.com/grey423/Cilik-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Grey](t.me/reyyvbss) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Grey](t.me/greyyvbss) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -296,17 +296,19 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
+    await alive.edit("✫")
+    await alive.edit("✫✫")
+    await alive.edit("✫✫✫")
+    await asyncio.sleep(2)
     output = (
-        f"**[Grey-Userbot](https://github.com/grey423/Cilik-Userbot)**\n\n"
-        f"**{alive_text}**\n\n"
-        f"{emoji} **Master :** [{user.first_name}](tg://user?id={user.id}) \n"
-        f"{emoji} **Modules :** `{len(modules)} Modules` \n"
-        f"{emoji} **Bot Version :** `{BOT_VER}` \n"
-        f"{emoji} **Python Version :** `{python_version()}` \n"
-        f"{emoji} **Telethon Version :** `{version.__version__}` \n"
-        f"{emoji} **Bot Uptime :** `{uptime}` \n\n"
-        f"    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/CilikSupport)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/CilikProject)** | **[𝗢𝘄𝗻𝗲𝗿](tg://user?id={user.id})**"
-    )
+        f"**[Cɪʟɪᴋ Uꜱᴇʀʙᴏᴛ](https://github.com/grey423/Cilik-Userbot)        
+        f"✫ **Master :** `{DEFAULTUSER}` \n"
+        f"✫ **Modules :** `{len(modules)} Modules` \n"
+        f"✫ **Bot Version :** `{BOT_VER}` \n"
+        f"✫ **Python Version :** `{python_version()}` \n"
+        f"✫ **Telethon Version :** `{version.__version__}` \n"
+        f"✫ **Bot Uptime :** `{uptime}` \n\n"
+        f"✫    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/CilikSupport)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/CilikProject)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/greyyvbss)**")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
