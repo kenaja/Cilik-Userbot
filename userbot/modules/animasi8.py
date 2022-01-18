@@ -7,13 +7,23 @@ from userbot.utils import edit_or_reply
 
 
 
-@bot.on(admin_cmd(outgoing=True, pattern="animator( (.*)|$)"))
+@bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
+
     if event.fwd_from:
+
         return
-    animation_interval = 0.5
-    animation_ttl = range(192)
-    event = await edit_or_reply(event, "animator....")
+
+    animation_interval = 0.1
+
+    animation_ttl = range(117)
+
+    input_str = event.pattern_match.group(1)
+
+    if input_str == "animator":
+
+        await event.edit(input_str)
+    
     animation_chars = [
    "⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️\n⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️\n⚫️⚪️⚫️..**{ALIVE_NAME}**..⚫️⚪️⚫️\n⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️\n⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️\n",
    f"⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️\n⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️\n⚪️⚫️⚪️..**{ALIVE_NAME}**..⚪️⚫️⚪️\n⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️\n⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️⚫️⚪️\n",
