@@ -1,13 +1,13 @@
 import asyncio
 
 import asyncio
-from userbot import ALIVE_NAME, CMD_HELP
+from userbot import ALIVE_NAME, CMD_HELP, bot
 from userbot.events import register
 from userbot.utils import edit_or_reply
 
 
 
-@register(outgoing=True, pattern="^.memek$")
+@bot.on(admin_cmd(outgoing=True, pattern="animator( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
