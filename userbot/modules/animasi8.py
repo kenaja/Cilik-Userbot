@@ -216,5 +216,6 @@ async def _(event):
 CMD_HELP.update({
     "animasi8":
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.kontol`\
-    \n↳ : Cobain Sendiri.\
+    \n↳ : Cobain Sendiri"
+})
         
