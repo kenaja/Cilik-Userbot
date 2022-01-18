@@ -7,7 +7,7 @@ from userbot.utils import edit_or_reply
 
 
 
-@register(outgoing=True, pattern="^.kontol$")
+@register(outgoing=True, pattern="^.memek$")
 async def _(event):
     if event.fwd_from:
         return
@@ -214,7 +214,7 @@ async def _(event):
         
 CMD_HELP.update({
     "animasi8":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.kontol`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.memek`\
     \n↳ : Cobain Sendiri"
 })
         
