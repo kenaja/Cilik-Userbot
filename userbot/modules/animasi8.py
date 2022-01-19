@@ -20,7 +20,7 @@ async def typewriter(typew):
                      "▒▒███▒▒▒▒▒▒▒▒▒▒▒▒███▒▒\n"
                      "▒▒▒██▒▒▀▀▀▀▀▀▀▀▒▒██▒▒▒\n"
                      "▒▒▒▐██▄▒▒▒▒▒▒▒▒▄██▌▒▒▒\n"
-                     "▒▒▒▒▀████████████▀▒▒\n")
+                     "▒▒▒▒▀████████████▀▒▒▒▒\n")
     
     
 @register(outgoing=True, pattern='^.hem(?: |$)(.*)')
@@ -34,7 +34,7 @@ async def typewriter(typew):
                      "   ╲┃┈┈┈┈┈┈┈┈┈┈◥▉◤\n"
                      "   ╲┃┈┈┈┈╭━┳━━━━╯\n"
                      "   ╲┣━━━━━━┫\n"
-                     "    **MENCURIGAKAN**\n")
+                     "      **MENCURIGAKAN**\n")
     
 
 @register(outgoing=True, pattern='^.wle(?: |$)(.*)')
@@ -72,9 +72,11 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.ahh(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    await typew.edit("ahhh")
+    await typew.edit("ahhh ahhh")
     await typew.edit("ahhh ahhh ahhh")
     await typew.edit("🥵")
-    sleep(0.5)
+    sleep(1)
     await typew.edit("⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⡠⠢⠏⣉⣉⠣⢦⡀⠄⠄⠄⠄\n"
                      "⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣐⢪⠅⣱⣟⢛⢧⠄⣷⠄⠄⠄⠄\n"
                      "⠄⠄⠄⠄⠄⠄⠄⠠⣬⣀⣢⣕⡽⢯⣩⣳⣷⠧⡆⠄⠄⠄\n"
@@ -97,7 +99,7 @@ async def typewriter(typew):
     
     CMD_HELP.update({
     "animasi8":
-    "`.Heu` ; `.hem` ; `.wle` ; `.pler`; `.ahh\
+    "`.heu` ; `.hem` ; `.wle` ; `.pler`; `.ahh\
     \nUsage: liat aja."
 })                     
                      
