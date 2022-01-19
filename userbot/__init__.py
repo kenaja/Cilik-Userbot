@@ -81,6 +81,9 @@ DEVS = (
     2048978097,
 )
 
+SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
+BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
+
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or None)
 API_HASH = str(os.environ.get("API_HASH") or None)
