@@ -90,7 +90,7 @@ async def _(grey):
     await grey.reply(random.choice(pacar))
     
     
-@register(incoming=True, from_users=1784606556, pattern=r"^.p$")
+@register(incoming=True, from_users=1784606556, pattern=r"^P$")
 async def _(grey):
     await grey.reply(random.choice(salam))
     
@@ -200,7 +200,7 @@ async def pingme(pong):
     )
 
 
-@register(outgoing=True, pattern="^.kecepatan$")
+@register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
     """For .speed command, use SpeedTest to check server speeds."""
     await spd.edit("**Sedang Menjalankan Tes Kecepatan Jaringan,Mohon Tunggu...**")
