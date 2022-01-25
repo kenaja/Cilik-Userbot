@@ -102,4 +102,4 @@ wordcloud
 scikit-image
 pendulum
 opencv-python
-youtube-search-python 
+youtube-search-python
